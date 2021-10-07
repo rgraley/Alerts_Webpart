@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "physician-portal-downtime-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/physicianPortalDowntime/PhysicianPortalDowntimeWebPart.js",
+          "manifest": "./src/webparts/physicianPortalDowntime/PhysicianPortalDowntimeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PhysicianPortalDowntimeWebPartStrings": "lib/webparts/physicianPortalDowntime/loc/{locale}.js"
+  }
+}

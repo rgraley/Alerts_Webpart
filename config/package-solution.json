@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Physician Portal Alerts",
+    "id": "99a959f9-8439-4eb5-b387-c77abb3d6b71",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/pp-mainpage-alerts.sppkg"
+  }
+}
